@@ -1,0 +1,5 @@
+t = (11,22,33,44,55)
+print("Is 22in it ?")
+print(22 in t)
+22222222 not in t
+False
