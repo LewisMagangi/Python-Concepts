@@ -1,4 +1,9 @@
 list1 = [2, 3, 4, 1, 32]
+list2 = [11,33,44,66,788,1]
+
+print(list1 + list2)
+
+print(list1 * 5)
 
 print(2 in list1)
 
