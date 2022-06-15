@@ -1,0 +1,4 @@
+i = 10.75
+print("float (i) = ", i)
+int(i)
+print("int (i) = ", i)
