@@ -26,17 +26,17 @@ class Circle:
         def __str__(self):
             return "Circle with radius " + str(self.__radius)
 
-        c1 = Circle(4)
-        print(c1.getRadius())
+c1 = Circle(4)
+print(c1.getRadius())
 
-        c2 = Circle(5)
-        print(c2.getRadius())
+c2 = Circle(5)
+print(c2.getRadius())
 
-        c3 = c1 + c2
-        print(c3.getRadius())
+c3 = c1 + c2
+print(c3.getRadius())
 
-        print( c3 > c2) # Became possible because we have added __gt__ method
+print(c3 > c2) # Became possible because we have added __gt__ method
 
-        print( c1 < c2) # Became possible because we have added __lt__ method
+print(c1 < c2) # Became possible because we have added __lt__ method
 
-        print(c3) # Became possible because we have added __str__ method
+print(c3) # Became possible because we have added __str__ method
