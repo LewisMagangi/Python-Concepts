@@ -11,7 +11,7 @@ print("8 power 2 is", pow(8, 2))  # can also be written as 8 ** 2
 
 print("4.1 power 3.1 is", pow(4.1, 3.2))  # can also be written as 4.1 ** 3.2
 
-print("5.32 rounded off to the nearest int is", round(5.32)  # Rounds to its nearest integer
+print("5.32 rounded off to the nearest int is", round(5.32))  # Rounds to its nearest integer
 
 print("3.1456875712 rouded off to 3 decimal places is", round(3.1456875712, 3)) # Return number with 3 digits after decimal point
 
