@@ -1,3 +1,0 @@
-print('doesn\'t')  # use \' to escape the single quote...
-print("doesn't")  # ...or use double quotes instead
-print("\"Yes,\" he said.")
