@@ -1,0 +1,4 @@
+ns = [2, 6, 7, 3, 14, 35, 15, 5]
+ns.sort()
+ns = list(dict.fromkeys(ns))
+print(ns)

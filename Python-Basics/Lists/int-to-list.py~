@@ -1,0 +1,5 @@
+"""
+Convert the integer to string first, and then use map to apply int on it:
+"""
+num = 1329853556
+print(list(map(int, str(num))))
