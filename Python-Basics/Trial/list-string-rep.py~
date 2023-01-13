@@ -1,0 +1,8 @@
+mylist = "Best School"
+x = (list(mylist))
+
+#for i in x:
+ #   if i == "o":
+  #      x = x.remove("o")
+print("".join(x))
+
