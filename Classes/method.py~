@@ -1,0 +1,7 @@
+def hi(obj):
+    print("Naitwa " + obj.name + "!")
+class Robot:
+    say_hi = hi
+x = Robot()
+x.name = "Marvo"
+Robot.say_hi(x)
