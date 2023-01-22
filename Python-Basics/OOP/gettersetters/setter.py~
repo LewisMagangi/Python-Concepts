@@ -1,0 +1,23 @@
+class Person:
+        def __init__(self, name, age):
+            self._name = name
+            self._age = age
+            
+        # Define a "get_name" getter
+        @property
+        def get_name(self):
+            return self._name
+        
+        # Define a "set_name" setter
+        @name.setter
+        def set_name(self, value):
+            self._name = value
+            
+# Create a new Person object
+person = Person("Alice", 30)
+
+# Access and set the "name" attribute using the getter and setter
+print(person.get_name)  # "Alice"
+
+person.set_name = "Bob"
+print(person.get_name)  # "Bob"
