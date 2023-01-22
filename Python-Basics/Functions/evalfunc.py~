@@ -1,0 +1,5 @@
+"""
+The eval() function evaluates the specified expression, if the expression is a legal Python statement, it will be executed.
+"""
+x = 'print(55)'
+eval(x)
