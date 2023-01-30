@@ -1,0 +1,35 @@
+"""
+Python example to show the working of multiple
+inheritance
+"""
+
+
+class Son(object):
+    def __init__(self):
+        self.str1 = "1stBorn"
+        print("Son")
+
+
+class Daughter(object):
+    def __init__(self):
+        self.str2 = "2ndBorn"
+        print("Daughter")
+
+
+class Derived(Son, Daughter):
+    def __init__(self):
+
+        '''
+        Calling constructors of Son
+        and Daughter classes
+        '''
+        Son.__init__(self)
+        Daughter.__init__(self)
+        print("Inherited")
+
+    def printStrs(self):
+        print(self.str1, self.str2)
+
+
+ob = Derived()
+ob.printStrs()
