@@ -2,6 +2,7 @@
 Tracebacks are a special case of changing data.
 Since the paths in a traceback depend on the location where a module is installed on the file system,
 it would be impossible to write portable tests if they were treated the same as other output.
+doctest makes a special effort to recognize tracebacks, and ignore the parts that might change from system to system.
 """
 
 # doctest_tracebacks.py
