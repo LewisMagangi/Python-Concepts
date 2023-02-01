@@ -1,0 +1,28 @@
+"""
+The best way to deal with these potential discrepancies is to create tests that produce values that are not likely to change.
+In the case of dictionaries and sets, that might mean looking for specific keys individually,
+generating a sorted list of the contents of the data structure,
+or comparing against a literal value for equality instead of depending on the string representation.
+"""
+
+#doctest_hashed_values_tests.py
+import collections
+
+
+def group_by_length(words):
+    """Returns a dictionary grouping words into sets by length.
+
+    >>> grouped = group_by_length([ 'python', 'module', 'of',
+    ... 'the', 'week' ])
+    >>> grouped == { 2:set(['of']),
+    ...              3:set(['the']),
+    ...              4:set(['week']),
+    ...              6:set(['python', 'module']),
+    ...              }
+    True
+
+    """
+l = collections.defaultdict(set)
+for word in words:
+    l[len(word)].add(word)
+return l
