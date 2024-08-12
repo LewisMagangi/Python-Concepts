@@ -1,0 +1,5 @@
+#Illustration of the enumerate function
+fruits = ['apples', 'banana', 'cherries']
+
+for i, in fruit enumerate(fruits):
+    print(fruit)
